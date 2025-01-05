@@ -60,9 +60,9 @@ python main.py
 
 **Code Explanation**
 
-initialize_llm(): Initializes the LLM (Large Language Model) for generating responses.
-create_db_engine(): Creates an SQLAlchemy engine to connect to the SQL database using the provided credentials.
-initialize_sql_database(): Initializes the SQLDatabase object with the given engine and includes specified tables.
-initialize_query_engine(): Initializes the Llama Index query engine using the provided SQL database and LLM.
-process_user_query(): Processes the user’s natural language query and returns a response based on the query execution.
-main(): Orchestrates the initialization of the system and query processing flow.
+1. initialize_llm(): Initializes the LLM (Large Language Model) for generating responses.
+2. create_db_engine(): Creates an SQLAlchemy engine to connect to the SQL database using the provided credentials.
+3. initialize_sql_database(): Initializes the SQLDatabase object with the given engine and includes specified tables.
+4. initialize_query_engine(): Initializes the Llama Index query engine using the provided SQL database and LLM.
+5. process_user_query(): Processes the user’s natural language query and returns a response based on the query execution.
+6. main(): Orchestrates the initialization of the system and query processing flow.
