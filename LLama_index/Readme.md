@@ -1,4 +1,5 @@
 **Llama Index Query Engine with LLM and SQL Database**
+
 This project demonstrates how to integrate Llama Index with an LLM (Large Language Model) and SQL Database to query tables in natural language.
 It uses an LLM (could be OpenAI, Azure OpenAI, or any compatible LLM) to process natural language queries and a SQL Database engine to fetch data. 
 The project allows for efficient data querying and processing through a custom SQL engine.
