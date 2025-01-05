@@ -13,6 +13,7 @@ The project allows for efficient data querying and processing through a custom S
 
 
 **Project Description**
+
 This project enables querying a SQL Database using natural language by combining:
 
   LLM for natural language processing (NLP). This can be OpenAI, Azure OpenAI, or any other compatible LLM.
@@ -22,10 +23,13 @@ This project enables querying a SQL Database using natural language by combining
 The goal is to process user queries and fetch relevant results from a database using the query engine powered by NLP.
 
 **Installation**
+
 To use this project, follow the steps below:
 
 **1.Prerequisites**
+
 Ensure you have the following installed:
+
 1. Python 3.8 or higher
 2. llama_index - To interact with the LLM and SQL Database.
 3. sqlalchemy - To interact with the SQL database.
@@ -33,6 +37,7 @@ Ensure you have the following installed:
 5. pymssql - SQL server connector for Python.
    
 **2. Environment Variables**
+
 Set the following environment variables for your LLM
 
 export LLM_API_KEY="your_api_key"
@@ -54,6 +59,7 @@ Run the following Python script to initialize the environment, set up the databa
 python main.py
 
 **Code Explanation**
+
 initialize_llm(): Initializes the LLM (Large Language Model) for generating responses.
 create_db_engine(): Creates an SQLAlchemy engine to connect to the SQL database using the provided credentials.
 initialize_sql_database(): Initializes the SQLDatabase object with the given engine and includes specified tables.
