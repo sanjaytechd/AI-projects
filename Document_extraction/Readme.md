@@ -16,7 +16,6 @@ This Python script splits DOCX files into sections based on `Heading1` styles, e
 
 **Install dependencies:**
 
-```bash
 pip install spire.doc aspose-words openai elasticsearch
 
 
